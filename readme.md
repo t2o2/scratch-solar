@@ -18,6 +18,7 @@
 -   **Resize:** Amplify the sun's grandeur by adjusting its size.
 -   **Position:** Command the sun to take its rightful place at the center of our universe.
 
+
 ----------
 
 ### **3. Deploying the Planets: 🪐**
@@ -45,16 +46,16 @@ For each planet:
 
 -   **Sprite & Position:** Choose a smaller circle sprite for the moon and position it near a planet.
     
--   **Variables:** Create `Moon_Timer`, `Moon_Angle`, and `Moon_Radius`. Initialize `Moon_Timer` to `0`, `Moon_Angle` to `0`, and set `Moon_Radius` for desired distance.
+-   **Variables:** Create `MoonTimer`, `MoonAngle`, and `MoonRadius`. Initialize `MoonTimer` to `0`, `MoonAngle` to `0`, and set `MoonRadius` for desired distance.
     
 -   **Orbiting Code:**
     
     -   In the 'Code' tab for the moon:
         -   Use a 'Forever' loop.
-        -   Increment `Moon_Timer` (e.g., by `0.1`).
-        -   Set `Moon_Angle` to `Moon_Timer x 10`.
-        -   Calculate x position: `Planet's X + (Moon_Radius x cos(Moon_Angle))`.
-        -   Calculate y position: `Planet's Y + (Moon_Radius x sin(Moon_Angle))`.
+        -   Increment `MoonTimer` (e.g., by `0.1`).
+        -   Set `MoonAngle` to `MoonTimer x 10`.
+        -   Calculate x position: `Planet's X + (MoonRadius x cos(MoonAngle))`.
+        -   Calculate y position: `Planet's Y + (MoonRadius x sin(MoonAngle))`.
 -   **Test:** Click the green flag to see the moon orbiting its planet.
 
 ----------
