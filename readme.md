@@ -55,10 +55,10 @@ For each planet:
     
     -   In the 'Code' tab for the moon:
         -   Use a 'Forever' loop.
-        -   Increment `MoonTimer` (e.g., by `0.1`).
-        -   Set `MoonAngle` to `MoonTimer x 10`.
-        -   Calculate x position: `Planet's X + (MoonRadius x cos(MoonAngle))`.
-        -   Calculate y position: `Planet's Y + (MoonRadius x sin(MoonAngle))`.
+        -   Increment `MoonTimer` (e.g., by `1`).
+        -   Set `MoonAngle` to `MoonTimer x 20`.
+        -   Calculate x position: `(x position) of Earth + (MoonRadius x cos(MoonAngle))`.
+        -   Calculate y position: `(y position) of Earth + (MoonRadius x sin(MoonAngle))`.
 -   **Test:** Click the green flag to see the moon orbiting its planet.
 
 [Moon Code](https://github.com/t2o2/scratch-solar/blob/main/imgs/moon.png?raw=true)
