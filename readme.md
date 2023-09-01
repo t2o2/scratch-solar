@@ -86,23 +86,37 @@ For each planet:
 
 ----------
 
-### **7. Bringing the Universe to Life: 🎬**
 
--   **Green Flag:** Hit the green flag and watch in awe as the planets commence their eternal waltz around the sun. Fine-tune the 'turn' and 'wait' blocks if you wish to alter their dance moves.
+### **8. Meteoric Encounters: Sensing, Bouncing & Looping ☄️**
+
+-   **Choose a Sprite for the Meteor:** Opt for a suitable sprite, perhaps a small rock or asteroid-like shape, to represent the meteor.
+    
+-   **Initial Position & Movement:**
+    
+    -   Place the meteor at a random position on one edge of the screen.
+    -   Use the `pick random` block from the 'Operators' section to set a random starting angle for the meteor's direction (e.g., between 0 and 360 degrees).
+    -   Use the `point in direction` block and input the random angle to set its initial direction.
+    -   In a 'Forever' loop, use the `move` block to keep the meteor moving.
+-   **Sensing & Bouncing:**
+    
+    -   Inside the 'Forever' loop, add the `if... then` block from the 'Control' section.
+    -   From the 'Sensing' section, drag the `touching` block into the `if... then` condition.
+    -   Set the `touching` block to detect any planet sprite.
+    -   If the meteor is touching a planet, use the `if on edge, bounce` block to make the meteor bounce off in a new direction.
+-   **Looping Across the Screen:**
+    
+    -   Still inside the 'Forever' loop, add another `if... then` condition to check if the meteor is touching the edge using the `touching edge?` block from the 'Sensing' section.
+    -   If the meteor touches the edge, reposition it to the opposite edge and set a new random direction using the `pick random` and `point in direction` blocks.
+-   **Enhancements (Optional):**
+    
+    -   You can add sound effects for when the meteor touches a planet.
+    -   Introduce a slight rotation to the meteor for a more dynamic appearance using the `turn` block.
 
 ----------
 
-### **8. Chronicle & Broadcast: 📜📡**
+### 9. **Testing & Exploration** 🎬
 
--   **Document Your Creation:** Bestow a title upon your solar system masterpiece and save it for posterity.
--   **Broadcast:** Share your cosmic creation with fellow space enthusiasts, friends, family, or the vast Scratch cosmos.
-
-----------
-
-### **🚀 Tips & Tricks for Young Astronomers 🚀**
-
--   **Size Matters:** The planetary sizes in this project aren't true to scale. Dive into some research to discover the actual sizes and adjust accordingly.
--   **Detailing:** Elevate your universe by adding intricate details like asteroid belts, shooting comets, or even the mesmerizing Milky Way.
+-   Click the green flag to see the celestial dance of planets, moons, and meteors around the sun. Adjust and experiment to make the universe truly your own!
 
 ----------
 
