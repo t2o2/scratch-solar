@@ -112,6 +112,8 @@ For each planet:
     -   You can add sound effects for when the meteor touches a planet.
     -   Introduce a slight rotation to the meteor for a more dynamic appearance using the `turn` block.
 
+[Meteor Code](https://github.com/t2o2/scratch-solar/blob/main/imgs/meteor.png?raw=true)
+
 ----------
 
 ### 9. **Testing & Exploration** 🎬
