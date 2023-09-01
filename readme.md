@@ -1,6 +1,8 @@
 
 # 🌌 **Solar System in Scratch: A Galactic Guide for Kids** 🌌
 
+![demo](https://github.com/t2o2/scratch-solar/blob/942739025757cb0001366848ad1a9f5f03ab9ce8/solar.gif?raw=true)
+
 ----------
 
 ### **1. Setting Up: 🌠**
