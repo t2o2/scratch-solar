@@ -18,6 +18,7 @@
 -   **Resize:** Amplify the sun's grandeur by adjusting its size.
 -   **Position:** Command the sun to take its rightful place at the center of our universe.
 
+[Sun Code](https://github.com/t2o2/scratch-solar/blob/main/imgs/sun.png?raw=true)
 
 ----------
 
@@ -39,6 +40,8 @@ For each planet:
 -   **Advance:** Post the 'turn' block, command the planet to march forward in its orbit using the 'move' block.
 -   **Pause:** Introduce a 'wait' block to dictate the rhythm of the orbit.
 
+[Earth Code](https://github.com/t2o2/scratch-solar/blob/main/imgs/earth.png?raw=true)
+
 ----------
 
 
@@ -58,6 +61,8 @@ For each planet:
         -   Calculate y position: `Planet's Y + (MoonRadius x sin(MoonAngle))`.
 -   **Test:** Click the green flag to see the moon orbiting its planet.
 
+[Moon Code](https://github.com/t2o2/scratch-solar/blob/main/imgs/moon.png?raw=true)
+
 ----------
 
 
@@ -76,6 +81,8 @@ For each planet:
     -   As the planet moves, it will now draw its path, visually representing its orbit.
     -   If you want to clear the previous orbits and redraw them, use the `clear` block from the pen extension at the beginning of your script (e.g., when the green flag is clicked).
 -   **Test:** Click the green flag to see the planets drawing their orbits around the sun.
+
+[Planet Code](https://github.com/t2o2/scratch-solar/blob/main/imgs/planet.png?raw=true)
 
 ----------
 
