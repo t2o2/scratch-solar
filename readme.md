@@ -7,7 +7,7 @@
 
 ### **1. Setting Up: 🌠**
 
--   **Open Scratch:** Launch the Scratch website and kick off a new cosmic project.
+-   **Open Scratch:** Launch the Scratch website and kick off a new cosmic project. (From Local or [Online Scratch](https://scratch.mit.edu/))
 -   **Backdrop:** Opt for a dark, mysterious backdrop like "starry night" to set the space mood.
 
 ----------
