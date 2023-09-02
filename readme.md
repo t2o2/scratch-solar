@@ -7,26 +7,26 @@
 
 ### **1. Setting Up: 🌠**
 
--   **Open Scratch:** Launch the Scratch website and kick off a new cosmic project. (From Local or [Online Scratch](https://scratch.mit.edu/))
--   **Backdrop:** Opt for a dark, mysterious backdrop like "starry night" to set the space mood.
+-   **Open Scratch:** Launch the Scratch website and kick off a new project. (From Local or [Online Scratch](https://scratch.mit.edu/))
+-   **Backdrop:** Opt for a dark, mysterious backdrop like "Starry Night" to set the space mood.
 
 ----------
 
-### **2. Crafting the Sun: ☀️**
+### **2. Creating the Sun: ☀️**
 
--   **Choose a Sprite:** Tap on the cat icon (or the 'Choose a Sprite' button) and pick a radiant circle or ball. This will be our mighty sun.
--   **Resize:** Amplify the sun's grandeur by adjusting its size.
--   **Position:** Command the sun to take its rightful place at the center of our universe.
+-   **Choose a Sprite:** Tap on the cat icon (or the 'Choose a Sprite' button) and pick a circle or ball. This will be our sun.
+-   **Upsize:** Amplify the sun's grandeur by adjusting its size.
+-   **Position:** Move the sun to take its rightful place at the center of our Solar System.
 
 [Sun Code](https://github.com/t2o2/scratch-solar/blob/main/imgs/sun.png?raw=true)
 
 ----------
 
-### **3. Deploying the Planets: 🪐**
+### **3. Coding the Planets: 🪐**
 
--   **Choose More Sprites:** For every planet, select a circle or ball sprite.
+-   **Choose More Sprites:** For every planet you want to create, select a circle or ball sprite.
 -   **Resize & Recolor:** Modify each sprite's size to resemble the planets. Use the 'Fill' tool to paint them in their iconic colors (e.g., fiery red for Mars, deep blue for Earth).
--   **Position:** Strategically position each planet sprite around the sun, ensuring they maintain their personal space.
+-   **Position:** Position each planet sprite around the sun, ensuring they maintain their personal space.
 
 ----------
 
@@ -34,31 +34,31 @@
 
 For each planet:
 
--   **Go to Code Tab:** Select the planet sprite and venture into the 'Code' realm.
--   **Use the 'Forever' Loop:** This magical loop ensures the planet never stops its majestic dance around the sun.
--   **Rotate:** Within the 'Forever' loop, deploy the 'turn' block to set the planet spinning. Tweak the rotation degree to control its speed.
--   **Advance:** Post the 'turn' block, command the planet to march forward in its orbit using the 'move' block.
--   **Pause:** Introduce a 'wait' block to dictate the rhythm of the orbit.
+-   **Go to Code Tab:** Select the planet sprite and click on the 'Code' tab.
+-   **Use the 'Forever' Loop:** This magical loop ensures the planet never stops its dance around the sun.
+-   **Rotate:** Within the 'Forever' loop, deploy the 'turn' block to set the planet spinning. Tweak the rotation degree to control its speed of rotation.
+-   **Advance:** Next, command the planet to march forward in its orbit using the 'move' block.
+-   **Pause:** Introduce a 'wait' block to dictate the speed and rhythm of the orbit.
 
 [Earth Code](https://github.com/t2o2/scratch-solar/blob/main/imgs/earth.png?raw=true)
 
 ----------
 
 
-### **5. Introducing Moons (For the Extra Curious!): 🌙**
+### **5. Introducing the Moon (For the Extra Curious!): 🌙**
 
--   **Sprite & Position:** Choose a smaller circle sprite for the moon and position it near a planet.
+-   **Sprite & Position:** Choose a smaller circular sprite for the moon and position it near a planet.
     
--   **Variables:** Create `MoonTimer`, `MoonAngle`, and `MoonRadius`. Initialize `MoonTimer` to `0`, `MoonAngle` to `0`, and set `MoonRadius` for desired distance.
+-   **Variables:** Create `MoonTimer`, `MoonAngle`, and `MoonRadius`. Set `MoonTimer` to `0`, `MoonAngle` to `0`, and `MoonRadius` to the desired distance.
     
 -   **Orbiting Code:**
     
     -   In the 'Code' tab for the moon:
         -   Use a 'Forever' loop.
-        -   Increment `MoonTimer` (e.g., by `1`).
+        -   Increase `MoonTimer` (e.g., by `1`).
         -   Set `MoonAngle` to `MoonTimer x 20`.
-        -   Calculate x position: `(x position) of Earth + (MoonRadius x cos(MoonAngle))`.
-        -   Calculate y position: `(y position) of Earth + (MoonRadius x sin(MoonAngle))`.
+        -   Set Moon x position: `(x position) of Earth + (MoonRadius x cos(MoonAngle))`.
+        -   Set Moon y position: `(y position) of Earth + (MoonRadius x sin(MoonAngle))`.
 -   **Test:** Click the green flag to see the moon orbiting its planet.
 
 [Moon Code](https://github.com/t2o2/scratch-solar/blob/main/imgs/moon.png?raw=true)
@@ -72,14 +72,14 @@ For each planet:
     
 -   **Setup:**
     
-    -   At the start (e.g., when the green flag is clicked), use the `pen up` block to ensure the pen is not drawing immediately.
-    -   Set the pen's color to match the planet or choose a light gray for a neutral orbit color.
+    -   When the green flag is clicked, use the `pen up` block to ensure the pen is not drawing immediately.
+    -   Set the pen's color to match the planet or choose a light gray.
     -   Use the `set pen size to` block to adjust the thickness of the orbit line. A smaller value like `1` or `2` is recommended.
 -   **Drawing the Orbit:**
     
     -   Before the planet starts its movement in the 'Forever' loop, use the `pen down` block to start drawing.
     -   As the planet moves, it will now draw its path, visually representing its orbit.
-    -   If you want to clear the previous orbits and redraw them, use the `clear` block from the pen extension at the beginning of your script (e.g., when the green flag is clicked).
+    -   If you want to clear the previous orbits and redraw them, use the `clear` block from the pen extension at the beginning of your script.
 -   **Test:** Click the green flag to see the planets drawing their orbits around the sun.
 
 [Planet Code](https://github.com/t2o2/scratch-solar/blob/main/imgs/planet.png?raw=true)
@@ -89,7 +89,7 @@ For each planet:
 
 ### **8. Meteoric Encounters: Sensing, Bouncing & Looping ☄️**
 
--   **Choose a Sprite for the Meteor:** Opt for a suitable sprite, perhaps a small rock or asteroid-like shape, to represent the meteor.
+-   **Choose a Sprite for the Meteor:** Choose a suitable sprite, perhaps a small rock or asteroid-like shape, to represent the meteor.
     
 -   **Initial Position & Movement:**
     
