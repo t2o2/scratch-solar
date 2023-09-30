@@ -63,7 +63,7 @@ For each planet:
 
 [Moon Code](https://github.com/t2o2/scratch-solar/blob/main/imgs/moon.png?raw=true)
 
-[Calculation Zoomed In](https://github.com/t2o2/scratch-solar/blob/main/imgs/algo_zoom.png?raw=true)
+[Formula Zoomed In](https://github.com/t2o2/scratch-solar/blob/main/imgs/algo_zoom.png?raw=true)
 
 ----------
 
