@@ -49,7 +49,7 @@ For each planet:
 
 -   **Sprite & Position:** Choose a smaller circular sprite for the moon and position it near a planet.
     
--   **Variables:** Create `MoonTimer`, `MoonAngle`, and `MoonRadius`. Set `MoonTimer` to `0`, `MoonAngle` to `0`, and `MoonRadius` to the desired distance.
+-   **Variables:** Create `MoonTimer`, `MoonAngle`, and `MoonRadius` variables using the `Make a Variable` button. Set `MoonTimer` to `0`, `MoonAngle` to `0`, and `MoonRadius` to the desired distance.
     
 -   **Orbiting Code:**
     
