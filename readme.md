@@ -17,6 +17,12 @@
 -   **Choose a Sprite:** Tap on the cat icon (or the 'Choose a Sprite' button) and pick a circle or ball. This will be our sun.
 -   **Upsize:** Amplify the sun's grandeur by adjusting its size.
 -   **Position:** Move the sun to take its rightful place at the center of our Solar System.
+-   **Rotating:**
+    * Add block `when [Green Flag] clicked` from Events tab on the left panel
+    * Add block `go to x: [0] y: [0]` from Motion tab on the left panel and place it below the flag block
+    * Attach block `forever` from control
+    * Add block `turn [15] degrees` within the forever block
+
 
 [Sun Code](https://github.com/t2o2/scratch-solar/blob/main/imgs/sun.png?raw=true)
 
