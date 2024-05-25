@@ -7,7 +7,7 @@
 
 ### **1. Setting Up: 🌠**
 
--   **Open Scratch:** Launch the Scratch website and kick off a new project. (From Local or [Online Scratch](https://scratch.mit.edu/))
+-   **Open Scratch:** Launch the Scratch website and kick off a new project. (From Local or [Online Scratch](https://scratch.mit.edu/projects/editor/))
 -   **Backdrop:** Opt for a dark, mysterious backdrop like "Starry Night" to set the space mood.
 
 ----------
